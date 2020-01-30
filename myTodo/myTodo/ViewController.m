@@ -62,7 +62,7 @@
     
     
     UITableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:cellId];
-    UISwitch *onoff = [[UISwitch alloc] initWithFrame:CGRectZero];
+    
   //Set rows(cell) content based on section, completed task are green and have Checkmark style .
     
     if(cell==nil){
