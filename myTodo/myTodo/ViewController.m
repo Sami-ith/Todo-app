@@ -80,9 +80,9 @@
         cell.accessoryType=UITableViewCellAccessoryNone;
         cell.textLabel.textColor=UIColor.blackColor;
         cell.textLabel.text=[incompleteTask objectAtIndex:indexPath.row ] ;
-        //[cell.contentView addSubview:onoff];
         
-        //
+        
+       
     }
     
     return cell;
